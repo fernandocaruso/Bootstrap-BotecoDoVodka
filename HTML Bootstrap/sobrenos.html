@@ -6,54 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nós</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">  
-</head>
-<body>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="sitenovo.html">Boteco do Vodka</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="sitenovo.html">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobrenos.html">Sobre o Boteco</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="games.html">Games</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Estatísticas
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Servidores</a></li>
-                  <li><a class="dropdown-item" href="#">Rankings</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Sobre Nós</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link do Discord</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+      .tamanhoFonte {
+
+        padding-top: 50px;
+        font-size:28px;
+        color:rgb(248, 245, 241)
+      }
+
+      .discord {
+          padding-top: 37.5px;
+
+      }
+
+      .logodisc {
+
+        height: 66px;
+        width: 66px;
+
+      }
+        .github {
+
+      width: 145px;
+      height: 145px;
+      padding: 30px;
+        }
+
+          .br-50 {
+
+
+          width: 255px;
+          border-radius: 50%;
+        }
+
+      
+    </style>
+      
+</head>
+<body background="/img/bgsobrenos.jpg">
+
+
+  <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="sitenovo.html">Boteco do Vodka</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="sobrenos.html">Sobre o Boteco</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lives.html">Nossos Streamers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="highlights.html">Highlights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeriadefotos.html">Galeria de Fotos</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link enabled" href="https://discord.gg/73DY2wf5" target="_blank" tabindex="-1" aria-disabled="true">Link do Discord</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
 <div class="sobrenos">
-    <div class="text-center">
+    <div class="p-5 text-center" style="font-family: 'Josefin Sans', sans-serif">
         <img src="/img/capasobrenos.jpg" alt="o fundador do boteco jantando a ceia natalina com a sua avó, Lucia!">
-        <h1>SOBRE O BOTECO DO VODKA</h1>
-        <p>O boteco do Vodka surgiu em 2014, na Steam, com o falecido game da Z8 Games 'Futebol Mania'. Cansado de pagar por um servidor de voz, o TeamSpeak3,
+        <h1 style="color: rgb(223, 121, 5)" class="p-4"><b>SOBRE O BOTECO DO VODKA</b></h1>
+        <hr>
+          <p class="p-2 tamanhoFonte">O boteco do Vodka surgiu em 2014, na Steam, com o falecido game da Z8 Games 'Futebol Mania'. Cansado de pagar por um servidor de voz, o TeamSpeak3,
             busquei alternativas para servidores gratuitos. Na época, havia o Raidcall, mas eu gostaria de algo diferente. 
             Somente em 2016, conheci o Discord, um software de voz incrível e gratuito. O conheci jogando Paladins profissionalmente. 
             Criei meu servidor, o Boteco do Vodka e convidei meus amigos para participar. 
@@ -68,6 +101,25 @@
 
     </div>
 </div>
+
+<footer class="fixed-bottom">
+  <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+          <a href="https://github.com/fernandocaruso" target="_blank">
+              <img class="github" src="/css/pngwing.com.png" alt="Github">
+          
+      <a class="discord" href="https://discord.gg/73DY2wf5" target="_blank">
+        <img class="logodisc" src="img/discordia.png" alt="Discord">
+      </a> 
+          </a>
+
+  </div>
+  <div class="row">
+      <div class="col-md-12">
+          <p class="text-center"><i>Blog destinado à Madalena Odara de Castro Caruso</i></p>
+      </div>
+  </div>
+</footer>
 
 <script src="/js/bootstrap.min.js"></script>
     
